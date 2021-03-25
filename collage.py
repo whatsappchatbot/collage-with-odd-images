@@ -31,5 +31,6 @@ Vertical_attachment=np.vstack([Horizontal1,Horizontal2])
 
 # Show the final attachment
 cv2.imshow("Final Collage",Vertical_attachment)
+cv2.imwrite(r"C:\Users\Snehal\Desktop\TEJAS\imges\final.jpg",Vertical_attachment)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
